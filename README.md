@@ -14,7 +14,7 @@ Edit the bootstrap.sh file
 vi bootstrap.sh
 
 disable these lines by adding the # as line prefix
-
+```
 #if [ -e "$REAL_OPT_DIR" ] ; then
 #    echo "Backup your configuration settings, then type:"
 #    echo "  rm -rf $REAL_OPT_DIR"
@@ -29,5 +29,6 @@ disable these lines by adding the # as line prefix
 #    echo "Error: CPU not Marvell Kirkwood, probably wrong bootstrap.xsh"
 #    exit 3
 #fi
+```
 
 sh bootstrap.sh
