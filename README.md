@@ -35,3 +35,10 @@ Run bootstrap
 ```
 sh bootstrap.sh
 ```
+
+Reboot your diskstation
+
+```
+ipkg update
+ipkg install pkg
+```
