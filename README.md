@@ -4,15 +4,15 @@ Install ipkg on a ds414 DSM 5.0
 
 Actually there is no xsh bootstrap for the ds414 (Marvell Armada XP armv7l) although the existing Marvell Kirkwood mv6281 binaries "are ~ compatible" (http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/). So this is a small guide to setup manually the optware environment (ipkg, PATH and init scripts).
 
-
+```
 wget http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/cross/stable/syno-mvkw-bootstrap_1.2-7_arm.xsh
 chmod 700 syno-mvkw-bootstrap_1.2-7_arm.xsh
 sh syno-mvkw-bootstrap_1.2-7_arm.xsh
-
+```
 Edit the bootstrap.sh file
-
+```
 vi bootstrap.sh
-
+```
 disable these lines by adding the # as line prefix
 ```
 #if [ -e "$REAL_OPT_DIR" ] ; then
@@ -31,4 +31,7 @@ disable these lines by adding the # as line prefix
 #fi
 ```
 
+Run bootstrap
+```
 sh bootstrap.sh
+```
