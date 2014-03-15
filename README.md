@@ -3,7 +3,8 @@
 
 Install ipkg on a ds414 DSM 5
 
-Actually there is no xsh bootstrap for the ds414 (Marvell Armada XP armv7l) although the existing Marvell Kirkwood mv6281 binaries "are ~ compatible" (http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/). So this is a small guide to setup manually the optware environment (ipkg, PATH and init scripts).
+Actually there is no xsh bootstrap for the ds414 (Marvell Armada XP armv7l) although the existing Marvell Kirkwood mv6281 binaries "are ~ compatible" (http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/). So this is a small guide to setup manually the optware environment, based on [trepmag guide]  (https://github.com/trepmag/ds213j-optware-bootstrap) - many thanks.
+
 
 ```
 wget http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/cross/stable/syno-mvkw-bootstrap_1.2-7_arm.xsh
