@@ -1,4 +1,4 @@
-ds414-boostrap
+Synology DSM 5.0 - Install ipkg on a Synology DS414
 ==============
 Install ipkg on a ds414 DSM 5.0
 
