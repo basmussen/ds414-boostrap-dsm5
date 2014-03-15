@@ -105,4 +105,10 @@ Set PYTHONPATH environment variable to solve it
 export PYTHONPATH=/opt/lib/python2.6/site-packages 
 ```
 
+Finished, run duplicity again
+
+```
+./duplicity --version
+duplicity 0.6.21
+```
 
