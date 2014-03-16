@@ -49,8 +49,22 @@ Reboot your diskstation
 Extend the PATH variable 'PATH=$PATH:/opt/bin:/opt/sbin' - check the [synology wiki] (http://forum.synology.com/wiki/index.php/Overview_on_modifying_the_Synology_Server,_bootstrap,_ipkg_etc)
 
 
-# DSM 5 - Install duplicity
+# DSM 5 - Install Community python 2.7.x
 
+Install [Community python 2.7.x] (http://www.synocommunity.com/). This python package include pycrypto module. 
+
+Set sym link.
+```
+ln -s /volume1/@appstore/python/bin/python /usr/bin/python
+```
+
+Run python
+```
+/usr/bin/python
+Python 2.7.6 (default, Nov 11 2013, 13:32:18)
+```
+
+# DSM 5 - Install duplicity
 
 ```
 ipkg update
@@ -115,7 +129,7 @@ Finished, run duplicity again
 duplicity 0.6.21
 ```
 
-Install py26-paramiko for ssh2 support
+Install py26-paramiko for ssh2 support (solve BackendException)
 ```
 ipkg install py26-paramiko
 ```
