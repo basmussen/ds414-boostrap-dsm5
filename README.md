@@ -115,3 +115,9 @@ Finished, run duplicity again
 duplicity 0.6.21
 ```
 
+Install py26-paramiko for ssh2 support
+```
+ipkg install py26-paramiko
+```
+
+
