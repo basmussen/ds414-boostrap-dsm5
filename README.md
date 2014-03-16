@@ -52,6 +52,7 @@ Extend the PATH variable 'PATH=$PATH:/opt/bin:/opt/sbin' - check the [synology w
 # DSM 5 - Install Community python 2.7.x
 
 Install [Community python 2.7.x] (http://www.synocommunity.com/). This python package include pycrypto module. 
+[GitHub SynoCommunity] (https://github.com/SynoCommunity)
 
 Set sym link.
 ```
