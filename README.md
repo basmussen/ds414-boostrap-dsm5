@@ -129,9 +129,16 @@ Finished, run duplicity again
 duplicity 0.6.21
 ```
 
+### Additional
+
 Install py26-paramiko for ssh2 support (solve BackendException)
 ```
 ipkg install py26-paramiko
+```
+
+Symlink
+```
+ln -s /opt/bin/gpg-agent /usr/syno/bin/gpg-agent
 ```
 
 
