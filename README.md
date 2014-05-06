@@ -142,4 +142,7 @@ Symlink
 ln -s /opt/bin/gpg-agent /usr/syno/bin/gpg-agent
 ```
 
-
+Solve 'No module named Crypto.Util.randpool'
+```
+cp -r  /opt/lib/python2.5/site-packages/Crypto/ /opt/lib/python2.6/site-packages/
+```
