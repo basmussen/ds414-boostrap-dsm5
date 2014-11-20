@@ -43,7 +43,7 @@ Reboot your diskstation
 ```
 /opt/bin/ipkg update
 /opt/bin/ipkg list
-/opt/bin/ipkg install pkg
+/opt/bin/ipkg install pkgconfig ipkg-opt
 ```
 
 Extend the PATH variable 'PATH=$PATH:/opt/bin:/opt/sbin' - check the [synology wiki] (http://forum.synology.com/wiki/index.php/Overview_on_modifying_the_Synology_Server,_bootstrap,_ipkg_etc)
